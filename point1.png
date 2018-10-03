@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<title>ページが見つかりませんでした</title>
+				<meta name="format-detection" content="telephone=no">
+		<link href="/assets/ico/ios.png" type="image/x-icon" rel="apple-touch-icon" size="114x114">
+		<link rel="stylesheet" href="/assets/css/combine.css">
+		<link rel="stylesheet" href="/assets/css/smoothness/jquery-ui-1.10.2.custom.min.css">
+		<link rel="stylesheet" href="/assets/css/add.css">
+						<style type="text/css">
+#mypage .dropdown-menu&gt;li&gt;a:hover, #mypage .dropdown-menu&gt;li&gt;a:focus, #mypage .dropdown-submenu:hover&gt;a, #mypage .dropdown-submenu:focus&gt;a{
+	color:#fff;
+	text-decoration:none;
+	background-color:#f1912c;
+	background-image:-moz-linear-gradient(top,#f6b454,#f1912c);
+	background-image:-webkit-gradient(linear,0 0,0 100%,from(#f6b454),to(#f1912c));
+	background-image:-webkit-linear-gradient(top,#f6b454,#f1912c);
+	background-image:-o-linear-gradient(top,#f6b454,#f1912c);
+	background-image:linear-gradient(to bottom,#f6b454,#f1912c);
+	background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&#039;#f6b454&#039;,endColorstr=&#039;#f1912c&#039;,GradientType=0);
+}
+
+#mypage .navbar-inverse .navbar-inner {
+	background-color: #f1912c;
+	background-image: -moz-linear-gradient(top,#f6b454,#f1912c);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#f6b454),to(#f1912c));
+	background-image: -webkit-linear-gradient(top,#f6b454,#f1912c);
+	background-image: -o-linear-gradient(top,#f6b454,#f1912c);
+	background-image: linear-gradient(to bottom,#f6b454,#f1912c);
+	border-color: #f1912c;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#039;#ff222222&#039;,endColorstr=&#039;#ff111111&#039;,GradientType=0);
+}
+
+.navbar-fixed-top .brand{
+	padding: 10px 20px 10px;
+	padding-left:120px;
+	background-image:url(/assets/img/logo_mark_mini.png);
+	background-repeat:no-repeat;
+	background-position:5px 5px;
+	font-size: 14px;
+color: #FFFFFF;
+}
+#mypage .navbar-inverse .navbar-text, #mypage .navbar-inverse .brand {
+	color: #FFFFFF;
+}
+@media (max-width: 640px) {
+	.navbar-fixed-top .brand{
+		//padding-left: 50px !important;
+		//background-image:url(/assets/img/logo_mark_sp.png);
+		padding-left: 0px !important;
+		background-image: none;
+		background-repeat :no-repeat;
+		background-position: 5px 5px;
+		font-size: 14px;
+	}
+	#mypage .navbar-inverse .brand {
+		//padding-left: 50px !important;
+		padding-left: 10px !important;
+	}
+}		</style>
+				<script type="text/javascript" src="/assets/js/combine.js"></script>
+		<script type="text/javascript" src="/assets/js/jquery-ui-1.10.2.custom.min.js"></script>
+		<script type="text/javascript" src="/assets/js/siteUtil.js"></script>
+		                <script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-102448540-1', 'auto');  ga('send', 'pageview');</script>	</head>
+	<body id="mypage">
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container-fluid">
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a class="brand" href="/mypage/">【灯油早割サービス】灯油配達サイト</a>
+					<div class="nav-collapse collapse">
+												<p class="navbar-text pull-right"><a href="/mypage/login/" class="navbar-link">ログイン</a></p>
+												<ul class="nav">
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row-fluid">
+<div class="alert alert-error">ページがみつかりませんでした。</div>
+<div><a href="#" class="btn history_back"> &lt; 戻る </a></div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	if ( window.history.length < 2 )
+	{
+		$('a.history_back').hide();
+	}
+	console.log(window.history);
+	$('a.history_back').click(function(){
+		window.history.back();
+		return false;
+	});
+});
+</script>			</div>
+			<hr>
+			<footer>
+				<ul class="footer_menu clearfix">
+					<li><a href="http://shu-wa.jp/" target="_blank">運営会社</a></li><li><a href="/p/footer/rule/">ご利用規約</a></li><li><a href="/p/footer/privacy/">プライバシーポリシー</a></li><li><a href="/p/footer/law/">特定商取引法に関する表示</a></li><li><a href="/p/footer/faq/">よくあるご質問</a></li><li><a href="/p/footer/spec/">推奨環境</a></li>				</ul>
+				<p>&copy; 2018 SHUWA Company Limited All right Reserved.</p>
+			</footer>
+		</div>
+	</body>
+</html>
